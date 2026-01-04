@@ -55,6 +55,33 @@ main{display:block;margin-top:4rem}
 .case-study{max-width:1000px}
 .case-intro h2{font-size:32px;font-weight:400;margin-bottom:16px}
 .case-details{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px;margin:64px 0}
+
+/* PROJECTS INDEX */
+.projects-grid {display: grid;grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));gap: 40px}
+.project-card {text-decoration: none;color: white}
+.project-card img {width: 100%;height: 420px;object-fit: cover;margin-bottom: 16px}
+.project-card h2 {font-size: 18px;font-weight: 400;letter-spacing: 2px}
+
+/* PROJECT PAGE */
+.project-page {padding: 160px 8% 120px}
+.project-hero {display: grid;grid-template-columns: 60% 40%;gap: 64px;margin-bottom: 120px}
+.project-image img {width: 100%;height: 90vh;object-fit: cover}
+.project-info h1 {font-size: 42px;margin-bottom: 16px}
+.project-statement {font-size: 16px;opacity: 0.8;margin-bottom: 32px}
+.project-meta h4 {text-transform: uppercase;font-size: 12px;letter-spacing: 2px;margin-bottom: 8px}
+
+/* PROCESS */
+.project-process {display: grid;gap: 80px;margin-bottom: 120px}
+.process-block {display: grid;grid-template-columns: 1fr 1fr;gap: 40px}
+.process-block img {width: 100%;height: 420px;object-fit: cover}
+.process-block h3 {text-transform: uppercase;letter-spacing: 2px;font-size: 13px;margin-bottom: 12px}
+
+/* GALLERY */
+.project-gallery {display: grid;grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));gap: 32px;margin-bottom: 120px}
+.project-gallery img {width: 100%;height: 420px;object-fit: cover}
+
+/* CLOSING */
+.project-closing {max-width: 600px;font-size: 15px;opacity: 0.75}
 .case-details h3{font-size:14px;letter-spacing:2px;text-transform:uppercase;margin-bottom:12px}
 .case-images{display:grid;gap:32px}
 .case-images img{width:100%}
